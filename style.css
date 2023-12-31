@@ -1,0 +1,130 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+#main {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #332d2d;
+    background-image: url("./gradient.e25977d1.svg");
+}
+#upper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    /* border: 1px solid black; */
+}
+#upper .div1{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+@media (max-width: 576px) {
+    #upper .div1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#upper .div1 .span #image {
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 3rem;
+}
+#upper .div1 .span {
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    box-sizing: border-box;
+    object-fit: cover;
+    /* border: 2px solid red; */
+    margin: .5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+#upper .for {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+ .cloud {
+    color: chocolate;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.div3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 400;
+    word-spacing: 0.08rem;
+    opacity: 500;
+}
+#main .div3 .image2 {
+    width: 1rem;
+    height: auto;
+    margin: 1rem;
+}
+.div5 {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.div5 a {
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+}
+
+#countdown {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 4rem;
+}
+
+#countdown .div .text {
+    font-size: 8px;
+    font-weight: 300;
+}
+#countdown .div {
+    padding: 1rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#countdown .div .time{
+    font-size: 1.8rem;
+}
