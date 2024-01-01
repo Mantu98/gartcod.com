@@ -27,7 +27,7 @@ setInterval (function(){
 
 
 
- const targetDate = new Date("December 31, 2023 23:59:59").getTime();
+ const targetDate = new Date("January 31, 2024 23:59:59").getTime();
 
  const countdownInterval = setInterval(updateCountdown, 1000);
 
@@ -56,3 +56,13 @@ setInterval (function(){
          document.getElementById('countdown').innerHTML = '<div>Countdown expired!</div>';
      }
  }
+
+ function reloadPage() {
+  // Change the button's position or style before reloading
+  var button = document.getElementById('div5');
+ document.getElementById("button").appendChild(button);
+
+  // Reload the page
+  window.location.reload();
+ }
+ 
