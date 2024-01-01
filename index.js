@@ -57,12 +57,12 @@ setInterval (function(){
      }
  }
 
- function reloadPage() {
-  // Change the button's position or style before reloading
-  var button = document.getElementById('div5');
- document.getElementById("button").appendChild(button);
+//  function reloadPage() {
+//   // Change the button's position or style before reloading
+//   var button = document.getElementById('div5');
+//  document.getElementById("button").appendChild(button);
 
-  // Reload the page
-  window.location.reload();
- }
+//   // Reload the page
+//   window.location.reload();
+//  }
  
